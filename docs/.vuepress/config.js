@@ -12,15 +12,15 @@ module.exports = {
     }]
   ],
   themeConfig: {
+      sidebar: 'auto',
+      smoothScroll: true,
       sidebar: [
         {
           title: 'Book:자료구조 와 알고리즘 by C++',
-          collapsable: true,
           children: CONST.CppDataStructureAlgorithm
         },
         {
           title: 'ETC',
-          collapsable: true,
           children: CONST.ETCList
         }
         // ,{  // 새로운 것 추가시 이용
