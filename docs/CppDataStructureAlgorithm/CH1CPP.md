@@ -1,3 +1,7 @@
+---   
+sidebar: auto
+---   
+
 # 1장 C++
 
 **BOOK : C++로 구현하는 자료구조와 알고리즘**
@@ -17,7 +21,7 @@
 
 ::: tip 장점 과 단점
 
-장점 : 성능 향상 (매우 짧은 경우)
+장점 : 성능 향상 (매우 짧은 경우)   
 단점 : 반복 호출 시 메모리 소모 큼
 
 :::   
@@ -40,4 +44,7 @@ friend ostream& operator<<(ostream& out, const SomeClass& x)
 동일 함수가 중복으로 include 되지 않게 함
 
 :::
+
+
+_**Date 2020-08-06**_
 
