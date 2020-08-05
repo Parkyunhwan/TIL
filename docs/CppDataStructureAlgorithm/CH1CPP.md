@@ -43,8 +43,11 @@ friend ostream& operator<<(ostream& out, const SomeClass& x)
 
 동일 함수가 중복으로 include 되지 않게 함
 
-:::
+:::   
+
+
 
 ***
 _**Date 2020-08-06**_
+***
 
