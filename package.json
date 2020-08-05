@@ -16,6 +16,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@limdongjin/vuepress-plugin-sidebar-on-off": "^1.0.0-alpha.32",
     "@vuepress/plugin-back-to-top": "^1.3.1",
     "@vuepress/plugin-medium-zoom": "^1.3.1",
     "vuepress": "^1.5.2"

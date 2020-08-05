@@ -12,7 +12,7 @@ module.exports = {
     }]
   ],
   themeConfig: {
-      sidebar: 'auto',
+      //sidebar: 'auto',
       smoothScroll: true,
       sidebar: [
         {
@@ -44,10 +44,9 @@ module.exports = {
       }
     ]
   },
-
-
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@limdongjin/vuepress-plugin-sidebar-on-off',
   ]
 }
