@@ -1,0 +1,23 @@
+{
+  "name": "til",
+  "version": "0.0.1",
+  "description": "오늘 배운 건 오늘 적자",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/Test",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "commit": "vuepress build docs && git add build -f && git commit -m 'Subtree commit'",
+    "deploy": "git push origin `git subtree split --prefix build master`:gh-pages --force"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.3.1",
+    "@vuepress/plugin-medium-zoom": "^1.3.1",
+    "vuepress": "^1.5.2"
+  }
+}
