@@ -1,5 +1,5 @@
 exports.CppDataStructureAlgorithm = [
-    'CppDataStructureAlgorithm/test1'
+    'CppDataStructureAlgorithm/CH1CPP'
   ]
   exports.ETCList = [
     'ETC/etc1'
