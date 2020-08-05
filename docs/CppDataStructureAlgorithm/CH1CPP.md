@@ -45,6 +45,6 @@ friend ostream& operator<<(ostream& out, const SomeClass& x)
 
 :::
 
-
+***
 _**Date 2020-08-06**_
 
