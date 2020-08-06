@@ -17,15 +17,22 @@ module.exports = {
       sidebar: [
         {
           title: 'Book:자료구조 와 알고리즘 by C++',
-          children: CONST.CppDataStructureAlgorithm
+          children: CONST.CppDataStructureAlgorithmList
         },
         {
           title: 'ETC',
           children: CONST.ETCList
         }
+        ,{  // 새로운 것 추가시 이용
+          title: 'Git',
+          children: CONST.GitList
+        }
         // ,{  // 새로운 것 추가시 이용
         //   title: 'ETC',
-        //   collapsable: true,
+        //   children: ['ETC/etc1']
+        // }
+        // ,{  // 새로운 것 추가시 이용
+        //   title: 'ETC',
         //   children: ['ETC/etc1']
         // }
       ],
