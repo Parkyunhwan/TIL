@@ -1,3 +1,7 @@
 /secret_folder
-build
-/node_modules
+build/
+yarn-error.log
+.idea/
+.DS_Store
+node_modules/
+yarn.lock
