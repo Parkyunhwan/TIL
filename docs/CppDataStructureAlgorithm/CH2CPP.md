@@ -1,7 +1,7 @@
 # 2장 객체지향설계
 
 
-## 목차
+## Table Of Contents
 
 [[toc]]
 

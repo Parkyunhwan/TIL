@@ -4,7 +4,7 @@
 
 <img src="../img/CppDataStructureAlgorithm/C++Book.png" alt="drawing" width="200"/>
 
-## 목차
+## Table Of Contents
 
 [[toc]]
 
