@@ -19,14 +19,15 @@ module.exports = {
           title: 'Book:자료구조 와 알고리즘 by C++',
           children: CONST.CppDataStructureAlgorithmList
         },
+        {  // 새로운 것 추가시 이용
+          title: 'Git',
+          children: CONST.GitList
+        },
         {
           title: 'ETC',
           children: CONST.ETCList
         }
-        ,{  // 새로운 것 추가시 이용
-          title: 'Git',
-          children: CONST.GitList
-        }
+
         // ,{  // 새로운 것 추가시 이용
         //   title: 'ETC',
         //   children: ['ETC/etc1']
@@ -55,5 +56,8 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     '@limdongjin/vuepress-plugin-sidebar-on-off',
-  ]
+  ],
+  markdown: {
+    lineNumbers: true
+}
 }
