@@ -6,6 +6,9 @@ exports.CppDataStructureAlgorithmList = [
   exports.GitList = [
     'Git/gh_pages'
   ]
+  exports.STLList = [
+    'STL/PriorityQueue'
+  ]
   exports.ETCList = [
     'ETC/UsefulSite'
   ]

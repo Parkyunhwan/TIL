@@ -23,15 +23,16 @@ module.exports = {
           title: 'Git',
           children: CONST.GitList
         },
+        {  // 새로운 것 추가시 이용
+          title: 'STL',
+          children: CONST.STLList
+        },
         {
           title: 'ETC',
           children: CONST.ETCList
         }
 
-        // ,{  // 새로운 것 추가시 이용
-        //   title: 'ETC',
-        //   children: ['ETC/etc1']
-        // }
+
         // ,{  // 새로운 것 추가시 이용
         //   title: 'ETC',
         //   children: ['ETC/etc1']
