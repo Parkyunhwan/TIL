@@ -42,9 +42,9 @@ priority_queue< pair<int, int>, vector< pair<int, int> >, greater<pair<int, int>
   
 ::: tip 추가로, sort는 기본적으로 오름차순이며
 
-● sort(v.begin(), v.end()), greater<자료형>()); -> 내림차순이고
+• ```sort(v.begin(), v.end()), greater<자료형>());``` -> 내림차순이고
 
-● sort(v.begin(), v.end()), less<자료형>()); -> 오름차순 이다.
+• ```sort(v.begin(), v.end()), less<자료형>());``` -> 오름차순 이다.
 
 우선순위 큐와 sort는 greater사용 시 반대라는 것을 기억해두자
 :::
