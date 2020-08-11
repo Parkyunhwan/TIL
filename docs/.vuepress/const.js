@@ -10,5 +10,6 @@ exports.CppDataStructureAlgorithmList = [
     'STL/PriorityQueue'
   ]
   exports.ETCList = [
+    'ETC/ETC1',
     'ETC/UsefulSite'
   ]
